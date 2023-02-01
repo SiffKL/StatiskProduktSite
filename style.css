@@ -1,0 +1,114 @@
+header {
+  margin: 0;
+  background-color: black;
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  background-color: #3a3a3a;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+  margin: 1em;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  grid-column: 2/5;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+li {
+  list-style: none;
+  line-height: 1.5;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.sitename {
+  grid-column: 1/5;
+}
+.categories {
+  grid-column: 1/5;
+}
+.categorilist {
+  grid-column: 1/4;
+  font-size: 35px;
+}
+
+a {
+  color: white;
+}
+.productimg {
+  max-width: 100%;
+}
+
+.oneproductsection {
+  grid-column: 2 / 5;
+}
+
+h1 {
+  grid-column: 2/4;
+}
+
+.bluetshirt {
+  grid-column: 2/3;
+  margin: 5%;
+}
+
+.greytshirt {
+  grid-column: 3/4;
+  margin: 5%;
+}
+
+.redtshirt {
+  grid-column: 4/5;
+  margin: 5%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.soldout {
+  background-color: white;
+  width: 30%;
+  height: 5%;
+  position: absolute;
+  z-index: 1;
+  max-width: 7%;
+}
+
+.soldoutp {
+  color: black;
+  background-color: white;
+  margin: 0;
+}
+
+.sale {
+  background-color: red;
+  width: 30%;
+  height: 5%;
+}
+
+.overlay {
+  filter: brightness(60%);
+}
