@@ -142,3 +142,7 @@ img {
 .productsiteinfo {
   font-size: 25px;
 }
+
+label {
+  color: white;
+}
