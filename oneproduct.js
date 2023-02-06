@@ -7,10 +7,9 @@ function showProduct(product) {
   document.querySelector(".productsiteinfo h1").textContent =
     product.productdisplayname;
 
-  document.querySelector(".productsiteinfo .gender").textContent =
-    product.gender;
+  document.querySelector(".gender").textContent = product.gender;
 
-  document.querySelector(".productsiteinfo .price").textContent = product.price;
+  document.querySelector(".price").textContent = product.price;
 
   document.querySelector(".oneproductsection .sale2").textContent =
     product.discount;

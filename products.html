@@ -20,30 +20,32 @@
     </header>
     <main>
       <h1>Apperals</h1>
-
-      <section class="bluetshirt">
-        <div class="fleximg">
-          <div class="sale"><p class="salep">-58 %</p></div>
+      <template id="smallProductTemplate">
+        <section class="bluetshirt">
+         
+        <div>
+          <div class="soldout"><p class="soldoutp"></p></div>
           <img
             class="zindex0"
             src="https://kea-alt-del.dk/t7/images/webp/1000/1164.webp"
             alt="Jersey"
           />
           <h2>Blue T20 Indian Cricket Jersey</h2>
-        </div>
+          <div class="sale">
+            <p class="salep"></p>
+          </div>
 
-        <div>
-          <h3>Product information</h3>
-          <p>NOW 945 DKK</p>
-          <p class="prevprice">1.595 DKK</p>
+          <div class="productinformation">
+            <h3>Product information</h3>
+    
+            <p class="price">945 <span>DKK</span></p>
+            <p class="brandname">Brand name: Nike</p>
+            <p class="gender">Gender: Men</p>
+          </div>
+        </section>
+      </template>
 
-          <div class=""></div>
-          <p>Brand name: Nike</p>
-          <p>Gender: Men</p>
-        </div>
-      </section>
-
-      <section class="greytshirt">
+      <!-- <section class="greytshirt">
         <div class="soldout"><p class="soldoutp">Sold Out</p></div>
         <div>
           <img
@@ -56,11 +58,9 @@
 
         <div>
           <h3>Product information</h3>
-
-          <p>899 DKK</p>
-
-          <p>Brand name: Puma</p>
-          <p>Gender: Men</p>
+          <p class="price">899 DKK</p>
+          <p class="brandname">Brand name: Puma</p>
+          <p class="gender">Gender: Men</p>
         </div>
       </section>
 
@@ -82,8 +82,9 @@
           <p>Brand name: Puma</p>
           <p>Gender: Men</p>
         </div>
-      </section>
+      </section> -->
     </main>
     <footer></footer>
+    <script src="productlist.js"></script>
   </body>
 </html>

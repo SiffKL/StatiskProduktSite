@@ -109,8 +109,7 @@ img {
   max-width: 100%;
 }
 
-.soldout,
-.sale {
+.soldout {
   background-color: white;
   width: 30%;
   height: 5%;
@@ -125,14 +124,11 @@ img {
   margin: 0;
 }
 
-.sale1 {
+.sale1,
+.sale {
   background-color: red;
-  width: 18%;
-  font-size: 25px;
-}
-
-.salep {
-  background-color: red;
+  width: 30%;
+  font-size: 20px;
 }
 
 .overlay {
